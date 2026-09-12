@@ -29,7 +29,7 @@ const mulheres = [
 
 ]
 
-function mostraMulheres(require,response) {
+function mostraMulheres(request,response) {
 
     response.json(mulheres)
 }
